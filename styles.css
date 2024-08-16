@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightpink;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    display: none;
+}
+
+section#home {
+    display: block; /* Muestra la sección Home por defecto */
+}
+
+.center-text {
+    text-align: center;
+    font-size: 2em;
+}
+
+.centered {
+    text-align: center;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centra la tabla en la página */
+    background-color: lightcyan; /* Cambia el color de fondo de la tabla para mayor contraste */
+}
+
+table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center; /* Centra el texto en la celda */
+    vertical-align: middle; /* Centra el contenido verticalmente */
+}
+
+table td img {
+    width: 150px; /* Tamaño uniforme para las imágenes en la tabla */
+    height: 150px;
+}
+
+img[alt="Imagen"] {
+    width: 200px; /* Ajusta el tamaño de las imágenes generales */
+    height: auto; /* Mantén la proporción de las imágenes */
+}
+
+img[alt="table td img"] {
+    width: 150px;
+    height: 150px;
+}
+
+img[alt="Imagenred"] {
+    width: 40px; /* Ajusta el tamaño de las imágenes de redes sociales */
+    height: 40px;
+}
+
+img[src="yt logo.webp"] {
+    height: 40px; /* Ajusta el tamaño específico de la imagen de YouTube */
+    width: 40px;
+}
+
+img[src="tiktok-logo-icon-social-media-icon-free-png.webp"] {
+    height: 30px; /* Ajusta el tamaño específico de la imagen de TikTok */
+    width: 30px;
+    margin: 5px; /* Ajusta el margen para alinear con la imagen de YouTube */
+}
+
